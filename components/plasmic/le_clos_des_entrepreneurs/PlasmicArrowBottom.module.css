@@ -1,0 +1,19 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-L1_D9QbPvIqk);
+  width: 60px;
+  height: 60px;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transform: none;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+}
+.root:not(:hover) {
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+.root:hover {
+  transform: translateX(0px) translateY(8px) translateZ(0px);
+}

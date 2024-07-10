@@ -1,0 +1,18 @@
+.cartouche {
+  display: inline-flex;
+  width: auto;
+  justify-self: flex-start;
+  background: var(--token-bnErZ9szTABy);
+  height: auto;
+  flex-direction: row;
+  position: relative;
+  border-radius: 100px;
+  padding: 8px 16px;
+}
+.text {
+  color: var(--token-L1_D9QbPvIqk);
+  position: relative;
+  left: auto;
+  top: auto;
+  width: auto;
+}

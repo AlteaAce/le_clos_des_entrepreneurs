@@ -1,0 +1,225 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7SwUNm2BfRmFwfEaLikgsq",
+      "projectApiToken": "KAKWDytBVhFx6Me9m1VvaUzkEONEJPyvJKHFvc0XVG0L7PMsA8tPuwdrSI0iveAW5KoG4hoNt6jW2eQ",
+      "projectName": "fluffy",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/fluffy/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "TePIrpt9vc4f",
+          "name": "FluffyMyComponent",
+          "displayName": "plasmic-fluffy-my-component",
+          "componentImportPath": "@plasmicpkgs/fluffy/skinny/registerMyComponent"
+        },
+        {
+          "id": "SpddcsMAT9hE",
+          "name": "FluffyUglyButton",
+          "displayName": "plasmic-fluffy-ugly-button",
+          "componentImportPath": "@plasmicpkgs/fluffy/skinny/registerUglyButton"
+        },
+        {
+          "id": "WlhDSNTR1LCM",
+          "name": "FluffyGoogleMaps",
+          "displayName": "plasmic-fluffy-google-maps",
+          "componentImportPath": "@plasmicpkgs/fluffy/skinny/registerGoogleMaps"
+        },
+        {
+          "id": "zqWSGFAsVLs2",
+          "name": "FluffyMyBehavior",
+          "displayName": "plasmic-fluffy-my-behavior",
+          "componentImportPath": "@plasmicpkgs/fluffy/skinny/registerMyBehavior"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "mGvKGPU4sMMAemDUhLdeWe",
+      "projectApiToken": "c9KsoMwEWWgK3j1khC8gj0e2GIAiMReIbMcaVeluCmprTbPwajDSaSIKsLR2ehl7gWfhuWqIMwByWL7hikQ",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "nAndgS4Veydq6N5LKAnva3",
+      "projectApiToken": "z4bXQNglk9JiYEAr3idtHrStWYFndbz79WtObkgsyiqA4D4gIssv2OtTszba7jjoKNRGP81blPhvTa32qrfOw",
+      "projectName": "Le Clos des Entrepreneurs",
+      "version": "latest",
+      "cssFilePath": "plasmic/le_clos_des_entrepreneurs/plasmic.module.css",
+      "components": [
+        {
+          "id": "ENWCjf3W8md_",
+          "name": "Accueil",
+          "type": "managed",
+          "projectId": "nAndgS4Veydq6N5LKAnva3",
+          "renderModuleFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicAccueil.tsx",
+          "importSpec": {
+            "modulePath": "../pages/accueil.tsx"
+          },
+          "cssFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicAccueil.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/accueil"
+        },
+        {
+          "id": "1dZS535PDilA",
+          "name": "Cartouche",
+          "type": "managed",
+          "projectId": "nAndgS4Veydq6N5LKAnva3",
+          "renderModuleFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicCartouche.tsx",
+          "importSpec": {
+            "modulePath": "Cartouche.tsx"
+          },
+          "cssFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicCartouche.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Qzdt7emJbQ8f",
+          "name": "ArrowBottom",
+          "type": "managed",
+          "projectId": "nAndgS4Veydq6N5LKAnva3",
+          "renderModuleFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicArrowBottom.tsx",
+          "importSpec": {
+            "modulePath": "ArrowBottom.tsx"
+          },
+          "cssFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicArrowBottom.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "OrVWEWz0IztP",
+          "name": "IconsArrowBottomsvgIcon",
+          "moduleFilePath": "plasmic/le_clos_des_entrepreneurs/icons/PlasmicIcon__IconsArrowBottomsvg.tsx"
+        },
+        {
+          "id": "9izSBVTKLL0H",
+          "name": "IconsArrowTopRightsvgIcon",
+          "moduleFilePath": "plasmic/le_clos_des_entrepreneurs/icons/PlasmicIcon__IconsArrowTopRightsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "MM3Pv5wW0rnk",
+          "name": "logo_clos_Icon.png",
+          "filePath": "../public/plasmic/le_clos_des_entrepreneurs/images/logoClosIconpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "5TcY9tFQ7i1d",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "-lpbY2o1ANvr",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "uVvUbU8LbZgE",
+        "name": "Screen",
+        "projectId": "nAndgS4Veydq6N5LKAnva3",
+        "contextFilePath": "plasmic/le_clos_des_entrepreneurs/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
